@@ -1,0 +1,322 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin: 0 auto;
+	
+}
+.top_block {
+	font-family: 'Lato', sans-serif;
+    width: 2000px;
+    height: 70px;
+    color: #ffffff;
+    background-color: rgb(25, 66, 115);
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    }
+
+ .btnaccept {
+
+	width: 112px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ffffff;	
+    margin-left: 50px;
+}
+.accep {
+    text-align: center;
+    width: 41px;
+    height: 12px;
+    color: #194277;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.36px;
+    letter-spacing: 0.55px;
+}
+header {
+    width: 2000px;
+    height: 872px;
+    background: linear-gradient(51deg, #3695ff 40%, #3564fc 20%, #3695ff 80%, #3564fc 10%,#3695ff 10%, #3564fc 10%);
+    background-size: 2305px 1803px;
+    }
+
+.headerblock {
+	font-family: 'Lato', sans-serif;
+    max-width: 1170px;
+    margin: 0 auto; 
+    padding-top: 100px; 
+}
+nav  {
+    float: right;
+    margin-top: 30px;}
+
+nav li {width: 25px;
+    height: 19px;
+    background-color: #ffffff;
+    text-align: right;
+}
+
+.blueheadblock {
+	 padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.blueheadblock h1 {
+	text-align: center;
+    width: 1000px;
+	height: 98px;
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 60px;
+	text-transform: uppercase;
+	letter-spacing: 1.25px;
+ }
+ .btnhireme {
+    width: 204px;
+    height: 55px;
+    border-radius: 28px;
+    background-color: #ffffff;
+    margin-bottom: 95px;
+
+ }
+ .hiretxt {
+    width: 65px;
+    height: 12px;
+    color: #3695ff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+
+ }
+ 
+
+.elips{
+	text-align: center;
+    width: 147px;
+    height: 147px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow:
+    0 0 0 8px rgb(88, 155, 254),
+    0 0 0 18px rgb(71, 145, 254);
+	padding-top: 100px;
+    }
+
+.blueheadblock p {
+    text-align: center;
+    width: 765px;
+    height: 50px;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+     padding-top: 10px;
+     padding-bottom: 150px;
+    }
+    
+h2 {
+    text-align: center;
+    width: 400px;
+    height: 45px;
+    color: #3677fd;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 35.12px;
+    padding-bottom: 100px;
+    padding-top: 99px;  
+}
+
+.aboutme {
+    
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    width: 1067px;
+    height: 192px;
+    font-size: 16px;
+    line-height: 35px;
+    }
+
+.design {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(241, 248, 255);
+    height: 1140px;
+    width: 2000px;
+    padding: 0px 200px 0px 200px;}
+
+ .design ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    padding: 50px 100px 50px 100px;
+    }
+
+.mobphone {
+    width: 150px;
+    height: 150px;
+    background-image: url(../Homework-2/image/mphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.leptop {
+    width: 150px;
+    height: 150px;
+    background-image: url(../Homework-2/image/leptop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.display {
+    width: 150px;
+    height: 150px;
+    background-image: url(../Homework-2/image/card.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.key {width: 150px;
+    height: 150px;
+    background-image: url(../Homework-2/image/key.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+
+.window {width: 150px;
+    height: 150px;
+    background-image: url(../Homework-2/image/window.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.camera {width: 150px;
+    height: 150px;
+    background-image: url(../Homework-2/image/camera.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.design p {
+    width: 350px;
+    height: 85px;
+    color: #5a5a5a;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    padding:0px;
+    margin: 25px;
+}
+
+.design a {
+    text-decoration: none;
+    text-align: center;
+    height: 18px;
+    color: #3677fd;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    padding:0px;
+}
+
+.despic li{
+    
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.design li + li{
+   margin-left: 25px;
+}
+.sectionlatest {
+    height: 1140px;
+    width: 2000px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;  
+}
+
+.latestwork {
+    display: flex;
+    list-style-type: none;
+    margin: 0px 300px 25px 300px;
+}
+
+.latestwork img {
+    margin: 25px;
+}
+
+.latesw {
+    width: 359px;
+    height: 269px;
+    margin: 25px 5px 50px 0px;
+    background-color: #f4f4f4; 
+}
+
+.latestwork a{
+    text-decoration: none;
+    }
+   
+.client {
+        
+    width: 2000px;
+    height: 363px;
+    background-color: #f1f8ff;
+    text-align: center;
+
+     }
+
+.hireme
+     {
+       
+    width: 2000px;
+    height: 247px;
+    background: linear-gradient(51deg, #3695ff 40%, #3564fc 20%, #3695ff 80%, #3564fc 10%,#3695ff 10%, #3564fc 10%);
+    background-size: 2000px 247px;
+    padding: 90px;
+    text-align: center;
+
+
+     }
+.firstsentece {
+    width: 870px;
+    height: 47px;
+    color: #ffffff;
+    color: #3677fd;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 65px;
+     }
+
+.secondsentece {
+    width: 870px;
+    height: 47px;
+    color: #ffffff;
+    font-family: "Lato Light";
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 65px;
+    margin-right: 100px;       
+}
